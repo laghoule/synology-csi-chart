@@ -27,12 +27,12 @@ images:
     # https://github.com/kubernetes-csi/external-attacher
     image: registry.k8s.io/sig-storage/csi-attacher
     pullPolicy: IfNotPresent
-    tag: v4.4.0
+    tag: v4.4.2
   nodeDriverRegistrar:
     # https://github.com/kubernetes-csi/node-driver-registrar
     image: registry.k8s.io/sig-storage/csi-node-driver-registrar
     pullPolicy: IfNotPresent
-    tag: v2.9.0
+    tag: v2.9.1
   plugin:
     image: synology/synology-csi
     pullPolicy: IfNotPresent
@@ -42,17 +42,17 @@ images:
     # https://github.com/kubernetes-csi/external-provisioner
     image: registry.k8s.io/sig-storage/csi-provisioner
     pullPolicy: IfNotPresent
-    tag: v3.6.0
+    tag: v3.6.2
   resizer:
     # https://github.com/kubernetes-csi/external-resizer
     image: registry.k8s.io/sig-storage/csi-resizer
     pullPolicy: IfNotPresent
-    tag: v1.9.0
+    tag: v1.9.2
   snapshotter:
     # https://github.com/kubernetes-csi/external-snapshotter
     image: registry.k8s.io/sig-storage/csi-snapshotter
     pullPolicy: IfNotPresent
-    tag: v6.3.0
+    tag: v6.3.2
 installCSIDriver: true
 nameOverride: ""
 # Specifies affinity, nodeSelector and tolerations for the node DaemonSet
